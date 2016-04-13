@@ -5,7 +5,7 @@ This example shows how to build a simple, multi-tier web application using [Helm
 The example consists of:
 
 - A web frontend which is installed as a Deis Workflow PaaS App
-- And back-end [redis](http://redis.io/) master (for storage), and a replicated set of redis 'slaves'.
+- And a back-end [redis](http://redis.io/) master (for storage), and a replicated set of redis 'slaves'.
 
 The web frontend interacts with the redis master via javascript redis API calls.
 
@@ -70,5 +70,4 @@ $ git push deis master
 ```
 $ deis open
 ```
-
 
